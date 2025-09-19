@@ -1,0 +1,22 @@
+// Variables 
+$primary-colour: #007bff; 
+$primary-hover-colour: #0056b3; 
+$secondary-colour: #8dcfe5; 
+$secondary-hover-colour: #21b8ea; 
+$background-colour: #ebd6be; 
+$text-colour: #000000; 
+$text-size: 10px; 
+
+// Styling
+body{
+    background-color: $background-colour; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: $text-colour; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    text-align: center;
+}
+
